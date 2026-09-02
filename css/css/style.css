@@ -83,3 +83,63 @@ p{
     background:var(--platinum);
     color:var(--vantablack);
 }
+.navbar{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:25px 60px;
+
+    z-index:1000;
+
+    background:rgba(0,0,0,.18);
+
+    backdrop-filter:blur(15px);
+
+}
+
+.logo{
+
+    font-size:1.4rem;
+
+    font-weight:700;
+
+    letter-spacing:.35rem;
+
+}
+
+nav{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+nav a{
+
+    color:var(--platinum);
+
+    text-decoration:none;
+
+    font-size:.95rem;
+
+    transition:.35s;
+
+}
+
+nav a:hover{
+
+    opacity:.6;
+
+}
