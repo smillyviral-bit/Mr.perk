@@ -247,3 +247,14 @@ nav a:hover{
     }
 
 }
+.navbar.scrolled{
+
+    background:rgba(5,5,5,.82);
+
+    backdrop-filter:blur(20px);
+
+    border-bottom:1px solid rgba(229,228,226,.08);
+
+    padding:18px 60px;
+
+}
