@@ -85,13 +85,41 @@ p{
 }
 
 .hero-button{
-    display:inline-block;
-    margin-top:35px;
-    padding:14px 42px;
-    border:1px solid var(--platinum);
-    color:var(--platinum);
+
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-width:200px;
+
+    height:58px;
+
+    border-radius:50px;
+
     text-decoration:none;
-    transition:var(--transition);
+
+    color:var(--platinum);
+
+    border:1px solid rgba(229,228,226,.25);
+
+    background:rgba(255,255,255,.04);
+
+    backdrop-filter:blur(12px);
+
+    transition:.45s;
+
+}
+
+.hero-button:hover{
+
+    transform:translateY(-3px);
+
+    background:rgba(229,228,226,.12);
+
+    box-shadow:0 15px 45px rgba(255,255,255,.08);
+
 }
 
 .hero-button:hover{
