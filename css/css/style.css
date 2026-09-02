@@ -188,3 +188,61 @@ nav a:hover{
     border-radius:50px;
 
 }
+#preloader{
+
+    position:fixed;
+
+    inset:0;
+
+    background:var(--vantablack);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:99999;
+
+    transition:opacity .8s ease;
+
+}
+
+.loader-logo{
+
+    color:var(--platinum);
+
+    font-size:3rem;
+
+    letter-spacing:.6rem;
+
+    animation:pulse 2s infinite;
+
+}
+
+.preloader-hide{
+
+    opacity:0;
+
+    pointer-events:none;
+
+}
+
+@keyframes pulse{
+
+    0%{
+        opacity:.4;
+        transform:scale(.98);
+    }
+
+    50%{
+        opacity:1;
+        transform:scale(1);
+    }
+
+    100%{
+        opacity:.4;
+        transform:scale(.98);
+    }
+
+}
