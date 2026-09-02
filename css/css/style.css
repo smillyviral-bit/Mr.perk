@@ -98,6 +98,7 @@ p{
     background:var(--platinum);
     color:var(--vantablack);
 }
+
 .navbar{
 
     position:fixed;
@@ -159,6 +160,7 @@ nav a:hover{
     opacity:.6;
 
 }
+
 .brand-line{
 
     width:120px;
@@ -262,6 +264,7 @@ nav a:hover{
     }
 
 }
+
 .navbar.scrolled{
 
     background:rgba(5,5,5,.82);
@@ -271,5 +274,37 @@ nav a:hover{
     border-bottom:1px solid rgba(229,228,226,.08);
 
     padding:18px 60px;
+
+}
+
+.hero-content{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    animation:heroReveal 1.6s ease forwards;
+
+    animation-delay:2s;
+
+}
+
+@keyframes heroReveal{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
 
 }
