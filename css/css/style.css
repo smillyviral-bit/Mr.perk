@@ -396,3 +396,66 @@ nav a:hover{
     font-size:1.1rem;
 
 }
+.philosophy{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+}
+
+.philosophy-text{
+
+    max-width:850px;
+
+    margin:40px auto;
+
+    line-height:1.9;
+
+    opacity:.85;
+
+}
+
+.values{
+
+    display:flex;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    margin-top:60px;
+
+}
+
+.value-card{
+
+    width:280px;
+
+    padding:35px;
+
+    border:1px solid rgba(229,228,226,.08);
+
+    background:rgba(255,255,255,.03);
+
+    backdrop-filter:blur(15px);
+
+    transition:.4s;
+
+}
+
+.value-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:rgba(229,228,226,.25);
+
+}
