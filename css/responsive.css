@@ -1,0 +1,81 @@
+@media (max-width: 768px){
+
+    .navbar{
+
+        padding:20px 25px;
+
+    }
+
+    .menu{
+
+        display:none;
+
+    }
+
+    .brand-mark{
+
+        font-size:2.5rem;
+
+        letter-spacing:.2rem;
+
+    }
+
+    .hero h1{
+
+        font-size:1.6rem;
+
+    }
+
+    .hero p{
+
+        font-size:.95rem;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .hero-button{
+
+        width:220px;
+
+    }
+
+    .about h2,
+    .philosophy h2,
+    .brands h2,
+    .projects h2,
+    .contact h2{
+
+        font-size:2.2rem;
+
+    }
+
+    section{
+
+        padding:100px 7%;
+
+    }
+
+    .values{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .value-card{
+
+        width:100%;
+
+        max-width:350px;
+
+    }
+
+}
