@@ -351,3 +351,48 @@ nav a:hover{
     }
 
 }
+.about{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+.section-title{
+
+    color:var(--platinum);
+
+    letter-spacing:.5rem;
+
+    opacity:.6;
+
+    margin-bottom:20px;
+
+}
+
+.about h2{
+
+    font-size:3rem;
+
+    margin-bottom:30px;
+
+}
+
+.about p{
+
+    max-width:850px;
+
+    line-height:1.9;
+
+    opacity:.85;
+
+    font-size:1.1rem;
+
+}
